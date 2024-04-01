@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-30T14:11:31 PDT" name="Failed suite [Suite]" finished-at="2024-03-30T14:11:40 PDT" duration-ms="8607">
+    <groups>
+      <group name="sanity">
+        <method signature="TC_002_LoginTest.verifyLogin()[pri:0, instance:testCases.TC_002_LoginTest@1a942c18]" name="verifyLogin" class="testCases.TC_002_LoginTest"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC_002_LoginTest.verifyLogin()[pri:0, instance:testCases.TC_002_LoginTest@1a942c18]" name="verifyLogin" class="testCases.TC_002_LoginTest"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2024-03-30T14:11:31 PDT" name="Test(failed)" finished-at="2024-03-30T14:11:40 PDT" duration-ms="8607">
+      <class name="testCases.TC_002_LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_LoginTest@1a942c18]" started-at="2024-03-30T14:11:32 PDT" name="setUp" finished-at="2024-03-30T14:11:38 PDT" duration-ms="5779" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[macOS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogin()[pri:0, instance:testCases.TC_002_LoginTest@1a942c18]" started-at="2024-03-30T14:11:38 PDT" name="verifyLogin" finished-at="2024-03-30T14:11:39 PDT" duration-ms="1750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_LoginTest@1a942c18]" started-at="2024-03-30T14:11:39 PDT" name="tearDown" finished-at="2024-03-30T14:11:40 PDT" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_002_LoginTest -->
+    </test> <!-- Test(failed) -->
+  </suite> <!-- Failed suite [Suite] -->
+</testng-results>
